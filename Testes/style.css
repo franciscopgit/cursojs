@@ -1,0 +1,11 @@
+body {
+    background: rgb(73, 73, 180);
+    font: normal 15pt Arial;
+    color: white;
+}
+div#res {
+    font: normal 15pt;
+    color: white;
+    padding: 5px;
+
+}

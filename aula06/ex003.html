@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body{
+            background-color: rgb(75, 75, 137);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //o comando somente o comando "window.prompt()" retorna string
+        var n2 = Number(window.prompt('Digite outro número: ')) // string
+        var s = n1 + n2 
+        window.alert(`A soma de ${n1} mais ${n2} e igual a ${s}`) // ${} chama-se "placehoder" do portugues "marcador de posição"
+        // string + string - concatenação
+        // number + number - adição
+        /*
+        O comando Number.parseFloat() retorna numero real
+        O comando Number.parseInt()  retorna numero Inteiro
+        O comando Number() retorna ambos
+        */
+    </script>    
+</body>
+</html>
